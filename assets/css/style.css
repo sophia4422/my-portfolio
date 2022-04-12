@@ -5,6 +5,9 @@
   background-color: #d5e8e7;
 }
 
+@media screen and (max-width: 596px) {
+}
+
 li,
 a {
   font-family: Georgia, "Times New Roman", Times, serif;
