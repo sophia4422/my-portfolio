@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #d5e8e7;
 }
 
 @media screen and (max-width: 596px) {
@@ -16,12 +15,13 @@ a {
   text-decoration: none;
   color: black;
 }
-
-header {
+/* my nav bar flex box*/
+.nav-container {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
+  background-color: #d5e8e7;
 }
 
 .nav_links {
@@ -39,4 +39,27 @@ header {
 
 .nav_links li a:hover {
   color: #e6397e;
+}
+
+.about {
+  width: 100%;
+  background-color: blue;
+}
+
+.about img {
+  height: auto;
+  width: 420px;
+}
+
+.about-text {
+  width: 550px;
+}
+
+.about-main {
+  width: 500px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
