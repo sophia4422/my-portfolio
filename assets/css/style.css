@@ -49,6 +49,7 @@ a {
 .about img {
   height: auto;
   width: 420px;
+  float: left;
 }
 
 .about-text {
@@ -56,7 +57,33 @@ a {
 }
 
 .about-main {
-  width: 500px;
+  width: 600px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  float: left;
+}
+
+.work {
+  width: 100%;
+  background-color: blue;
+}
+
+.work img {
+  height: auto;
+  width: 420px;
+  float: right;
+}
+
+.my-work-text {
+  width: 550px;
+  float: left;
+}
+
+.work-main {
+  width: 600px;
   max-width: 95%;
   margin: 0 auto;
   display: flex;
