@@ -4,7 +4,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: aqua;
 }
 
 li,
@@ -21,6 +20,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
+  background-color: aqua;
 }
 
 .nav_links {
@@ -38,4 +38,48 @@ header {
 
 .nav_links li a:hover {
   color: fuchsia;
+}
+
+.about {
+  width: 100%;
+  padding: 20px 0px;
+  background-color: blue;
+}
+
+.about img {
+  height: auto;
+  width: 420px;
+}
+
+.about-text {
+  width: 550px;
+  margin-left: 20px;
+}
+
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-text h1 {
+  color: white;
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.about-text h5 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.about-text p {
+  color: white;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
 }
