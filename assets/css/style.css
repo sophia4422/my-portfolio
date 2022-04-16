@@ -4,15 +4,17 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Akshar", sans-serif;
+  font-family: "IM Fell Double Pica", serif;
 }
 
 li,
 a {
   /* font-family: 
   font-weight: */
+  font-family: "Akshar", sans-serif;
   font-size: 18px;
-  color: black;
+  color: #364f54;
   text-decoration: none;
 }
 
@@ -21,7 +23,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  background-color: #f2ece4;
+  background-color: #d9dde0;
 }
 
 .nav_links {
@@ -44,12 +46,13 @@ header {
 .about {
   width: 100%;
   padding: 20px 0px;
-  background-color: #faf7f2;
+  background-color: #bfc8ca;
 }
 
 .about img {
   height: auto;
-  width: 420px;
+  width: 300px;
+  margin-left: 80px;
 }
 
 .about-text {
@@ -69,13 +72,18 @@ header {
 .about-text h1 {
   color: white;
   font-size: 80px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
+  font-family: "Akshar", sans-serif;
+  font-weight: 380;
+  text-transform: uppercase;
 }
 
 .about-text h5 {
-  color: white;
+  color: #364f54;
   font-size: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+  font-weight: lighter;
+  font-family: "IM Fell Double Pica", serif;
 }
 
 .about-text p {
@@ -83,18 +91,31 @@ header {
   line-height: 28px;
   font-size: 18px;
   margin-bottom: 45px;
+  line-height: 34px;
+  font-family: "IM Fell Double Pica", serif;
 }
 
 /* my projects css */
 .projects {
   width: 100%;
   padding: 20px 0px;
-  background-color: #f2ece4;
+  background-color: #e2e0e3;
+  font-family: "Akshar", sans-serif;
 }
 .proj-text {
   text-align: center;
   padding: 20px;
   font-size: 22px;
+  font-family: "Akshar", sans-serif;
+}
+
+.proj-text h1 {
+  font-family: "Akshar", sans-serif;
+  color: #364f54;
+}
+.proj-text h5 {
+  font-family: "Akshar", sans-serif;
+  color: #364f54;
 }
 /* all the effects for the image text */
 .image {
@@ -115,7 +136,7 @@ header {
   left: 0;
   width: 780px;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(48, 63, 66, 0.6);
   color: white;
   display: flex;
   flex-direction: column;
@@ -123,6 +144,7 @@ header {
   justify-content: center;
   opacity: 0;
   transition: opacity 0.25s;
+  font-family: "Akshar", sans-serif;
 }
 
 .image__overlay:hover {
@@ -131,10 +153,20 @@ header {
 
 .image__title {
   font-weight: bold;
+  font-size: 30px;
+  font-family: "Akshar", sans-serif;
 }
 
 .image__description {
   margin-top: 0.5em;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-family: "Akshar", sans-serif;
+}
+
+.image_link {
+  color: white;
 }
 
 /* future projects placeholders */
@@ -161,7 +193,7 @@ header {
   left: 0;
   width: 260px;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(48, 63, 66, 0.6);
   color: white;
   display: flex;
   flex-direction: column;
