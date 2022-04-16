@@ -41,6 +41,7 @@ header {
 
 .nav_links li a:hover {
   color: #3894a6;
+  transition: color 0.2s;
 }
 /* about me and contact section*/
 .about {
@@ -98,13 +99,12 @@ header {
 /* my projects css */
 .projects {
   width: 100%;
-  padding: 20px 0px;
   background-color: #e2e0e3;
   font-family: "Akshar", sans-serif;
+  padding-top: 40px;
 }
 .proj-text {
   text-align: center;
-  padding: 5px;
   font-size: 22px;
   font-family: "Akshar", sans-serif;
   margin-bottom: 10px;
@@ -120,6 +120,7 @@ header {
 .proj-text h5 {
   color: #364f54;
   font-family: "IM Fell Double Pica", serif;
+  margin-bottom: 40px;
 }
 /* all the effects for the image text */
 .image {
@@ -227,4 +228,17 @@ header {
   text-align: center;
   font-family: "Akshar", sans-serif;
   text-transform: uppercase;
+}
+
+/* contact me form icons */
+.social-icon {
+  color: white;
+  font-size: 50px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social-icon:hover {
+  color: #3894a6;
+  transition: color 0.2s;
 }
