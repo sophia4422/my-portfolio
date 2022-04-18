@@ -41,3 +41,6 @@ As you can see from my css code, I have tried addressing each element under the 
 This is a very important part of web-design - I will get it and I will fix it. But until I can ask for some help, I have had to stop for fear of it ruining how the webpage looks on desktop. I have learnt from my mistakes and know for next time.
 
 # Screenshot of my Webpage in Browser
+
+<img width="465" alt="page1" src="https://user-images.githubusercontent.com/101473841/163850093-299c03a7-31dd-4918-bdc7-dcb2195df3c9.png">
+
