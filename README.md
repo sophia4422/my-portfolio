@@ -2,7 +2,8 @@
 
 Hello! My name is Sophia Wall. This is my very first css / html project where I have had 100% of the creative freedom.
 
-I have created a personal portfolio using only CSS and HTML via VSCODE, in order to tell you more about me and showcase my work. Please click here to see the deployed Portfolio:
+I have created a personal portfolio using only CSS and HTML via VSCODE, in order to tell you more about me and showcase my work. Please click here to see the deployed Portfolio: https://sophia4422.github.io/my-portfolio/
+
 
 # The Brief
 
