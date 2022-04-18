@@ -13,7 +13,7 @@
 }
 
 html {
-  width: 100%
+  width: 100%;
 }
 
 body {
@@ -48,6 +48,18 @@ header {
 
 .nav_links li a {
   transition: all 0.4s ease 0s;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+  filter: invert(100%);
+}
+
+.logo:hover {
+  height: 60px;
+  width: auto;
+  filter: invert(5%);
 }
 
 .nav_links li a:hover {
@@ -245,6 +257,15 @@ header {
   text-align: center;
   font-family: "Akshar", sans-serif;
   text-transform: uppercase;
+  color: white;
+}
+
+.link_colour {
+  margin-top: 0.5em;
+  text-align: center;
+  font-family: "Akshar", sans-serif;
+  text-transform: uppercase;
+  color: white;
 }
 
 /* contact me form icons */
@@ -295,6 +316,7 @@ header {
   font-weight: bold;
   font-family: "Akshar", sans-serif;
   text-transform: uppercase;
+  font-size: 25px;
 }
 
 .project_refactor_description {
@@ -302,10 +324,96 @@ header {
   text-align: center;
   font-family: "Akshar", sans-serif;
   text-transform: uppercase;
+  color: white;
 }
 
 @media screen and (max-width: 596px) {
-.my_projects {
-  display: flex;
-  flex-wrap: wrap;
+  .logo {
+    display: none;
+  }
+
+  .nav_links li {
+    display: flex;
+    align-items: center;
+    justify-content: column;
+  }
+
+  .about img {
+    height: auto;
+    width: 200px;
+    margin-left: 0;
+    float: left;
+    text-align: left;
+    padding: 0;
+  }
+
+  .main {
+    max-width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .about-text h1 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-family: "Akshar", sans-serif;
+    font-weight: 380;
+    text-transform: uppercase;
+  }
+
+  .about-text h5 {
+    color: #364f54;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    font-family: "IM Fell Double Pica", serif;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .about-text p {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 45px;
+    line-height: 34px;
+    font-family: "IM Fell Double Pica", serif;
+    display: inline-block;
+  }
+
+  .proj-text {
+    text-align: left;
+    font-size: 16px;
+    font-family: "Akshar", sans-serif;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    object-fit: contain;
+  }
+
+  .project_refactor_image {
+    display: block;
+    width: 200px;
+  }
+
+  .project_refactor_overlay {
+    display: none;
+  }
+
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .my_projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
