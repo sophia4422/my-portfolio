@@ -43,4 +43,4 @@ This is a very important part of web-design - I will get it and I will fix it. B
 # Screenshot of my Webpage in Browser
 
 <img width="465" alt="page1" src="https://user-images.githubusercontent.com/101473841/163850093-299c03a7-31dd-4918-bdc7-dcb2195df3c9.png">
-
+<img width="468" alt="image (1)" src="https://user-images.githubusercontent.com/101473841/163850217-9dafbf0f-212e-42ad-b58a-b3e30c0e680f.png">
