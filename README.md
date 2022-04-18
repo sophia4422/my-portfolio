@@ -44,3 +44,7 @@ This is a very important part of web-design - I will get it and I will fix it. B
 
 <img width="465" alt="page1" src="https://user-images.githubusercontent.com/101473841/163850093-299c03a7-31dd-4918-bdc7-dcb2195df3c9.png">
 <img width="468" alt="image (1)" src="https://user-images.githubusercontent.com/101473841/163850217-9dafbf0f-212e-42ad-b58a-b3e30c0e680f.png">
+
+When you hover over the project icons, a title and description appears:
+
+<img width="464" alt="image" src="https://user-images.githubusercontent.com/101473841/163850364-7ee3f0e5-565f-4408-8bcb-63ecb2d39950.png">
