@@ -48,3 +48,11 @@ This is a very important part of web-design - I will get it and I will fix it. B
 When you hover over the project icons, a title and description appears:
 
 <img width="464" alt="image" src="https://user-images.githubusercontent.com/101473841/163850364-7ee3f0e5-565f-4408-8bcb-63ecb2d39950.png">
+
+The contact me section uses hyperlinked icons to take the guest to my github or linked in.
+
+<img width="468" alt="image (2)" src="https://user-images.githubusercontent.com/101473841/163850553-768fe7b1-a8e3-4807-a967-20982de48f79.png">
+
+P.S. My cat's name is Cookie :)
+
+# Thanks for reading!
