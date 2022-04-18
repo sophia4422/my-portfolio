@@ -27,3 +27,17 @@ Staying focussed, I marked out where all of my divs will go, following with the 
 # The Theme
 
 As mentioned earlier, I wanted my portfolio to be inspired by the beach. I chose sea-foam, neutral colours and added a picture of myself in Kefalonia, Greece (in the distance you can see an island, that is Zante). My logo is of a tropical hibiscus flower. The serif font I chose kind of reminds me of pirate handwriting(?) and the sans-serif font compliments this nicely. The curved svg has been added to resemble waves.
+
+# Meeting the Brief
+
+For a beginner to CSS/HTML, I am proud of what I have achieved so far with this project. I have been working at it every day and I really like how the outcome looks on desktop.
+
+However, number 9 of the brief, has been a real uphill struggle. I completed my webpage and - despite being told to style my webpage for mobile FIRST - I thought that adding a simple media query at the end would fix all my problems. I was wrong.
+
+I have been trying to make my webpage look correct when resizing and I have been getting nowhere. The only part of my page that I have managed to look somewhat decent when resized is my navbar - each element stacks on top of each other and I have hidden the logo.
+
+As you can see from my css code, I have tried addressing each element under the media query and trying to change them - e.g. adding 'flex-wrap' to my projects boxes did at one point make them all stack in line when resized, but now it does not work.
+
+This is a very important part of web-design - I will get it and I will fix it. But until I can ask for some help, I have had to stop for fear of it ruining how the webpage looks on desktop. I have learnt from my mistakes and know for next time.
+
+# Screenshot of my Webpage in Browser
