@@ -2,7 +2,8 @@
 
 Hello! My name is Sophia Wall. This is my very first css / html project where I have had 100% of the creative freedom.
 
-I have created a personal portfolio using only CSS and HTML via VSCODE, in order to tell you more about me and showcase my work. Please click here to see the deployed Portfolio:
+I have created a personal portfolio using only CSS and HTML via VSCODE, in order to tell you more about me and showcase my work. Please click here to see the deployed Portfolio: https://sophia4422.github.io/my-portfolio/
+
 
 # The Brief
 
@@ -41,3 +42,18 @@ As you can see from my css code, I have tried addressing each element under the 
 This is a very important part of web-design - I will get it and I will fix it. But until I can ask for some help, I have had to stop for fear of it ruining how the webpage looks on desktop. I have learnt from my mistakes and know for next time.
 
 # Screenshot of my Webpage in Browser
+
+<img width="465" alt="page1" src="https://user-images.githubusercontent.com/101473841/163850093-299c03a7-31dd-4918-bdc7-dcb2195df3c9.png">
+<img width="468" alt="image (1)" src="https://user-images.githubusercontent.com/101473841/163850217-9dafbf0f-212e-42ad-b58a-b3e30c0e680f.png">
+
+When you hover over the project icons, a title and description appears:
+
+<img width="464" alt="image" src="https://user-images.githubusercontent.com/101473841/163850364-7ee3f0e5-565f-4408-8bcb-63ecb2d39950.png">
+
+The contact me section uses hyperlinked icons to take the guest to my github or linked in.
+
+<img width="468" alt="image (2)" src="https://user-images.githubusercontent.com/101473841/163850553-768fe7b1-a8e3-4807-a967-20982de48f79.png">
+
+P.S. My cat's name is Cookie :)
+
+# Thanks for reading!
