@@ -56,3 +56,7 @@ The contact me section uses hyperlinked icons to take the guest to my github or 
 P.S. My cat's name is Cookie :)
 
 # Thanks for reading!
+
+![generated-password](https://user-images.githubusercontent.com/101473841/165153747-7d107f06-bdd3-4a1b-9c35-c4b5c247d6f8.png)
+
+![page1](/assets/readmeImages/page1.png)

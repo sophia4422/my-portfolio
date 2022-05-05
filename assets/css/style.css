@@ -8,17 +8,9 @@
   font-family: "IM Fell Double Pica", serif;
 }
 
-:root {
-  width: 940px;
-}
-
-html {
-  width: 100%;
-}
-
 body {
   min-height: 100%;
-  width: 100%;
+  width: 100vw;
 }
 
 li,
