@@ -108,6 +108,10 @@ header {
   font-family: "IM Fell Double Pica", serif;
 }
 
+svg {
+  display: block;
+}
+
 /* my projects css */
 .projects {
   width: 100%;
