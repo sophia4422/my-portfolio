@@ -22,7 +22,7 @@ I had an idea in my head of how I wanted the portfolio to look and I began drawi
 
 Where to begin? I had no code to go off of, I had to rely on all of my knowledge learnt so far. I made a html file, an assets folder, a css file and linked my css/html together. Add, commit, push. Now what?
 
-Staying focussed, I marked out where all of my divs will go, following with the sketch I had drew out on paper. Remembering what my instructor had told me, it is wise to begin from the top and work my way down, so I began with the nav bar - and off I went!
+Staying focused, I marked out where all of my divs will go, following with the sketch I had drew out on paper. Remembering what my instructor had told me, it is wise to begin from the top and work my way down, so I began with the nav bar - and off I went!
 
 # The Theme
 

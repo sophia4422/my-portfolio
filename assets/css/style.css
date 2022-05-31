@@ -1,5 +1,3 @@
-/* need to add google fonts */
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -58,7 +56,8 @@ header {
   color: #3894a6;
   transition: color 0.2s;
 }
-/* about me and contact section*/
+
+/* about section */
 .about {
   width: 100%;
   background-color: #bfc8ca;
@@ -200,6 +199,52 @@ header {
   color: white;
 }
 
+/* testing refactoring */
+.project_refactor {
+  position: relative;
+  width: 780px;
+}
+
+.project_refactor_image {
+  display: block;
+  width: 780px;
+}
+
+.project_refactor_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 780px;
+  height: 100%;
+  background: rgba(48, 63, 66, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.project_refactor_overlay:hover {
+  opacity: 1;
+}
+
+.project_refactor_title {
+  font-weight: bold;
+  font-family: "Akshar", sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.project_refactor_description {
+  margin-top: 0.5em;
+  text-align: center;
+  font-family: "Akshar", sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
 /* future projects placeholders */
 
 .my_projects {
@@ -273,139 +318,52 @@ header {
   transition: color 0.2s;
 }
 
-/* testing refactoring */
-.project_refactor {
-  position: relative;
-  width: 780px;
-}
-
-.project_refactor_image {
-  display: block;
-  width: 780px;
-}
-
-.project_refactor_overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 780px;
-  height: 100%;
-  background: rgba(48, 63, 66, 0.6);
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 0.25s;
-}
-
-.project_refactor_overlay:hover {
-  opacity: 1;
-}
-
-.project_refactor_title {
-  font-weight: bold;
-  font-family: "Akshar", sans-serif;
-  text-transform: uppercase;
-  font-size: 25px;
-}
-
-.project_refactor_description {
-  margin-top: 0.5em;
-  text-align: center;
-  font-family: "Akshar", sans-serif;
-  text-transform: uppercase;
-  color: white;
-}
-
 @media screen and (max-width: 596px) {
-  .logo {
-    display: none;
-  }
-
   .nav_links li {
-    display: flex;
-    align-items: center;
-    justify-content: column;
+    display: block;
   }
-
-  .about img {
-    height: auto;
-    width: 200px;
-    margin-left: 0;
-    float: left;
-    text-align: left;
-    padding: 0;
-  }
-
   .main {
-    max-width: 100%;
-    margin: 0;
-    display: flex;
     flex-direction: column;
   }
-
   .about {
     display: flex;
     flex-wrap: wrap;
-    max-width: 100%;
-    padding: 0;
   }
-
+  .about img {
+    height: auto;
+    width: 200px;
+    margin-left: 0px;
+  }
+  .about-text {
+    max-width: 300px;
+  }
   .about-text h1 {
-    color: white;
-    font-size: 20px;
+    font-size: 50px;
+    margin-top: 10px;
     margin-bottom: 5px;
-    font-family: "Akshar", sans-serif;
-    font-weight: 380;
-    text-transform: uppercase;
+    text-align: center;
   }
-
   .about-text h5 {
-    color: #364f54;
-    font-size: 20px;
-    margin-bottom: 20px;
-    font-weight: lighter;
-    font-family: "IM Fell Double Pica", serif;
-    display: flex;
-    flex-wrap: wrap;
+    text-align: center;
   }
 
   .about-text p {
-    color: white;
-    font-size: 16px;
-    margin-bottom: 45px;
-    line-height: 34px;
-    font-family: "IM Fell Double Pica", serif;
-    display: inline-block;
-  }
-
-  .proj-text {
-    text-align: left;
-    font-size: 16px;
-    font-family: "Akshar", sans-serif;
+    text-align: center;
     margin-bottom: 10px;
-    margin-left: 10px;
-    object-fit: contain;
   }
 
   .project_refactor_image {
-    display: block;
-    width: 200px;
+    width: 100%;
   }
 
   .project_refactor_overlay {
-    display: none;
+    width: 100%;
   }
-
-  .projects {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   .my_projects {
     display: flex;
     flex-wrap: wrap;
+  }
+  .social-icon {
+    text-align: center;
   }
 }
