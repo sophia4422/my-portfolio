@@ -309,6 +309,11 @@ svg {
   color: white;
 }
 
+/* my interests */
+.padding {
+  margin-top: 20px;
+}
+
 /* contact me form icons */
 .social-icon {
   color: white;
@@ -320,6 +325,18 @@ svg {
 .social-icon:hover {
   color: #3894a6;
   transition: color 0.2s;
+}
+
+footer {
+  background-color: #d9dde0;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+footer p {
+  font-family: "Akshar", sans-serif;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 596px) {
@@ -368,6 +385,7 @@ svg {
     flex-wrap: wrap;
   }
   .social-icon {
+    display: inline-block;
     text-align: center;
   }
 }
