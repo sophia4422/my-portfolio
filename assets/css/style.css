@@ -415,8 +415,19 @@ footer p {
     flex-wrap: wrap;
   }
 
+  .interests-img img {
+    margin: 0;
+  }
+
   .interests-container {
     max-width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .interests-text {
+    text-align: center;
   }
 
   .social-icon {
