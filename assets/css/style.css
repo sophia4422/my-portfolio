@@ -310,8 +310,38 @@ svg {
 }
 
 /* my interests */
-.padding {
+
+.margin-one {
+  margin-top: 40px;
+}
+
+.interests-container {
+  display: flex;
+  margin: 0 auto;
+  width: 780px;
+  background-color: #bfc8ca;
+  padding: 20px;
+}
+
+.interests-img img {
+  width: 160px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.interests-text {
+  width: 550px;
+  margin-left: 20px;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 45px;
+  line-height: 34px;
+  font-family: "IM Fell Double Pica", serif;
+}
+
+.interests-text h3 {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* contact me form icons */
@@ -384,6 +414,11 @@ footer p {
     display: flex;
     flex-wrap: wrap;
   }
+
+  .interests-container {
+    max-width: 350px;
+  }
+
   .social-icon {
     display: inline-block;
     text-align: center;
