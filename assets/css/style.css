@@ -330,6 +330,12 @@ svg {
   margin-left: 20px;
 }
 
+.interests-vid {
+  width: 400px;
+  height: auto;
+  margin-left: 20px;
+}
+
 .interests-text {
   width: 550px;
   margin-left: 20px;
@@ -421,6 +427,13 @@ footer p {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+  }
+
+  .interests-vid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
   }
 
   .interests-container {
