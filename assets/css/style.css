@@ -464,7 +464,7 @@ footer p {
   }
 
   .social-icon {
-    display: inline-block;
+    display: block;
     text-align: center;
   }
 }
