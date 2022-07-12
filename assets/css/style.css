@@ -265,6 +265,7 @@ svg {
 .project_two_image {
   display: block;
   width: 260px;
+  height: auto;
 }
 
 .project_overlay {
