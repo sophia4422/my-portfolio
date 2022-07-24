@@ -138,70 +138,6 @@ svg {
   font-family: "IM Fell Double Pica", serif;
   margin-bottom: 40px;
 }
-/* all the effects for the image text */
-.refactoring {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.image {
-  position: relative;
-  left: 105px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.image__img {
-  display: relative;
-  width: 780px;
-  left: 105px;
-}
-
-.image__overlay {
-  position: absolute;
-  top: 0;
-  left: 105px;
-  width: 780px;
-  height: 100%;
-  background: rgba(48, 63, 66, 0.6);
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 0.25s;
-  font-family: "Akshar", sans-serif;
-}
-
-.image__overlay:hover {
-  opacity: 1;
-}
-
-.image__title {
-  font-weight: bold;
-  font-size: 40px;
-  font-family: "Akshar", sans-serif;
-  text-transform: uppercase;
-  font-weight: lighter;
-}
-
-.image__description {
-  margin-top: 0.5em;
-  text-align: center;
-  padding: 20px;
-  color: white;
-  font-family: "Akshar", sans-serif;
-  text-transform: uppercase;
-  font-weight: lighter;
-  font-size: 20px;
-}
-
-.image_link {
-  color: white;
-}
 
 /* testing refactoring */
 .project_refactor {
@@ -311,10 +247,6 @@ svg {
 }
 
 /* my interests */
-
-.margin-one {
-  margin-top: 40px;
-}
 
 .interests-container {
   display: flex;
