@@ -170,21 +170,6 @@ svg {
   opacity: 1;
 }
 
-.project_refactor_title {
-  font-weight: bold;
-  font-family: "Akshar", sans-serif;
-  text-transform: uppercase;
-  font-size: 25px;
-}
-
-.project_refactor_description {
-  margin-top: 0.5em;
-  text-align: center;
-  font-family: "Akshar", sans-serif;
-  text-transform: uppercase;
-  color: white;
-}
-
 /* future projects placeholders */
 
 .my_projects {
@@ -228,6 +213,8 @@ svg {
   font-weight: bold;
   font-family: "Akshar", sans-serif;
   text-transform: uppercase;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px rgba(5, 16, 32, 0.489);
 }
 
 .project_description {
@@ -236,6 +223,8 @@ svg {
   font-family: "Akshar", sans-serif;
   text-transform: uppercase;
   color: white;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px rgba(5, 16, 32, 0.489);
 }
 
 .link_colour {
@@ -246,7 +235,16 @@ svg {
   color: white;
 }
 
+.link_colour:hover {
+  color: #d2eaee;
+  text-shadow: 1px 1px 2px rgba(25, 17, 53, 0.489);
+}
+
 /* my interests */
+
+.margin-one {
+  margin-top: 40px;
+}
 
 .interests-container {
   display: flex;
