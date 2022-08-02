@@ -105,11 +105,25 @@ header {
 .about-text p {
   color: white;
   font-size: 1.1vw;
-  margin-bottom: 45px;
+  margin-bottom: 20px;
   line-height: 34px;
   /* font-family: "Akshar", sans-serif;
   text-transform: uppercase; */
   color: #364f54;
+}
+
+.tech-icons {
+  color: white;
+  font-size: 30px;
+}
+
+.icons-margin {
+  margin-right: 4px;
+}
+
+.icons-margin:hover {
+  color: #3894a6;
+  transition: color 0.2s;
 }
 
 svg {
@@ -355,6 +369,7 @@ footer p {
   .about-text p {
     text-align: center;
     margin-bottom: 10px;
+    font-size: 5vw;
   }
 
   .project_refactor_image {
@@ -407,5 +422,10 @@ footer p {
   .social-icon {
     display: block;
     text-align: center;
+  }
+
+  .tech-icons {
+    text-align: center;
+    margin-top: 5px;
   }
 }
