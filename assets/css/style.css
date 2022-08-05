@@ -1,0 +1,431 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Akshar", sans-serif;
+  font-family: "IM Fell Double Pica", serif;
+}
+
+body {
+  min-height: 100%;
+  width: 100vw;
+}
+
+li,
+a {
+  font-family: "Akshar", sans-serif;
+  font-size: 18px;
+  color: #364f54;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #d9dde0;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.4s ease 0s;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+  filter: invert(100%);
+}
+
+.logo:hover {
+  height: 60px;
+  width: auto;
+  filter: invert(5%);
+}
+
+.nav_links li a:hover {
+  color: #3894a6;
+  transition: color 0.2s;
+}
+
+/* about section */
+.about {
+  width: 100%;
+  background-color: #bfc8ca;
+  padding-top: 20px;
+}
+
+.about img {
+  height: auto;
+  width: 300px;
+  margin-left: 80px;
+}
+
+.about-text {
+  width: 550px;
+  margin-left: 20px;
+}
+
+.main {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-text h1 {
+  color: white;
+  font-size: 80px;
+  margin-bottom: 5px;
+  font-family: "Akshar", sans-serif;
+  font-weight: 380;
+  text-transform: uppercase;
+}
+
+.about-text h5 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: lighter;
+  /* font-family: "IM Fell Double Pica", serif; */
+  font-family: "Akshar", sans-serif;
+  text-transform: uppercase;
+}
+
+.about-text p {
+  color: white;
+  font-size: 1.1vw;
+  margin-bottom: 20px;
+  line-height: 34px;
+  /* font-family: "Akshar", sans-serif;
+  text-transform: uppercase; */
+  color: #364f54;
+}
+
+.tech-icons {
+  color: white;
+  font-size: 30px;
+}
+
+.icons-margin {
+  margin-right: 4px;
+}
+
+.icons-margin:hover {
+  color: #3894a6;
+  transition: color 0.2s;
+}
+
+svg {
+  display: block;
+}
+
+/* my projects css */
+
+.margin {
+  margin-top: 5px;
+}
+
+.projects {
+  width: 100%;
+  background-color: #e2e0e3;
+  font-family: "Akshar", sans-serif;
+  padding-top: 40px;
+}
+.proj-text {
+  text-align: center;
+  font-size: 22px;
+  font-family: "Akshar", sans-serif;
+  margin-bottom: 10px;
+}
+
+.proj-text h1 {
+  font-family: "Akshar", sans-serif;
+  color: #364f54;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: lighter;
+}
+.proj-text h5 {
+  color: #364f54;
+  font-family: "IM Fell Double Pica", serif;
+  margin-bottom: 40px;
+}
+
+/* testing refactoring */
+.project_refactor {
+  position: relative;
+  width: 800px;
+}
+
+.project_refactor_image {
+  display: block;
+  width: 800px;
+}
+
+.project_refactor_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 100%;
+  background: rgba(48, 63, 66, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.project_refactor_overlay:hover {
+  opacity: 1;
+}
+
+/* future projects placeholders */
+
+.my_projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project_two {
+  position: relative;
+  width: 260px;
+  margin: 5px;
+}
+
+.project_two_image {
+  display: block;
+  width: 260px;
+  height: auto;
+}
+
+.project_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 100%;
+  background: rgba(48, 63, 66, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.project_overlay:hover {
+  opacity: 1;
+}
+
+.project_title {
+  font-weight: bold;
+  font-family: "Akshar", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px rgba(5, 16, 32, 0.489);
+}
+
+.project_description {
+  margin-top: 0.5em;
+  text-align: center;
+  font-family: "Akshar", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px rgba(5, 16, 32, 0.489);
+}
+
+.link_colour {
+  margin-top: 0.5em;
+  text-align: center;
+  font-family: "Akshar", sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+.link_colour:hover {
+  color: #d2eaee;
+  text-shadow: 1px 1px 2px rgba(25, 17, 53, 0.489);
+}
+
+/* my interests */
+
+.margin-one {
+  margin-top: 40px;
+}
+
+.interests-container {
+  display: flex;
+  margin: 0 auto;
+  width: 780px;
+  background-color: #bfc8ca;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.interests-img img {
+  width: 160px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.interests-vid {
+  width: 400px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.interests-sc img {
+  width: 260px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.interests-text {
+  width: 550px;
+  margin-left: 20px;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 45px;
+  line-height: 34px;
+  font-family: "IM Fell Double Pica", serif;
+}
+
+.interests-text h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* contact me form icons */
+.social-icon {
+  color: white;
+  font-size: 50px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social-icon:hover {
+  color: #3894a6;
+  transition: color 0.2s;
+}
+
+footer {
+  background-color: #d9dde0;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+footer p {
+  font-family: "Akshar", sans-serif;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 596px) {
+  .nav_links li {
+    display: block;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about img {
+    height: auto;
+    width: 200px;
+    margin-left: 0px;
+  }
+  .about-text {
+    max-width: 300px;
+  }
+  .about-text h1 {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .about-text h5 {
+    text-align: center;
+  }
+
+  .about-text p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 5vw;
+  }
+
+  .project_refactor_image {
+    width: 100%;
+  }
+
+  .project_refactor_overlay {
+    width: 100%;
+  }
+  .my_projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .interests-img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .interests-sc img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  .interests-vid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .interests-container {
+    max-width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .interests-text {
+    text-align: center;
+  }
+
+  .social-icon {
+    display: block;
+    text-align: center;
+  }
+
+  .tech-icons {
+    text-align: center;
+    margin-top: 5px;
+  }
+}
